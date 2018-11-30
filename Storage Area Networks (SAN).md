@@ -9,7 +9,7 @@
 Większość sieci pamięci masowej wykorzystuje protokół SCSI do komunikacji między serwerami i urządzeniami pamięci masowej na poziomie topologii magistrali . Ponieważ protokół SCSI nie jest przeznaczony do tworzenia pakietów sieciowych, protokoły niskiego poziomu są używane w sieciach pamięci masowej:
 
 - [Protokół Fibre Channel](https://pl.wikipedia.org/wiki/Fibre_Channel/), transport SCSI przez Fibre Channel . Najczęściej używany protokół w tej chwili. Występuje w wersjach 1 -- Gbit / s, 2 Gbit / s, 4 Gbit / s, 8 Gbit / s, 10 Gbit / s, 16 Gbit / s, 20 Gbit / s.
-- [iSCSI](https://pl.wikipedia.org/wiki/ISCSI/), transport SCSI przez [TCP / IP](https://pl.wikipedia.org/wiki/Model_TCP/IP/)  .
+- [iSCSI](https://pl.wikipedia.org/wiki/ISCSI/), transport SCSI przez [TCP / IP](https://pl.wikipedia.org/wiki/Model_TCP/IP)  .
 - iSER , transport iSCSI za pośrednictwem InfiniBand / RDMA .
 - SRP , transport SCSI przez InfiniBand / RDMA
 - FCoE , FCP / SCSI transport przez "czysty" Ethernet.
