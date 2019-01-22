@@ -4,7 +4,7 @@
 **SAN ( Storage Area Network )** — stanowi rozwiązanie architektoniczne dla podłączenia zewnętrznych urządzeń pamięci masowej, takich jak macierze dyskowe, biblioteki taśmowe, napędy optyczne do serwerów w taki sposób, aby system operacyjny rozpoznaje podłączone zasoby lokalne. SAN charakteryzują się świadczeniem tzw. sieciowych urządzeń blokowych (zwykle za pośrednictwem protokołów Fibre Channel, iSCSI lub AoE), podczas gdy sieci hurtowni danych (ang. Network Attached Storage, NAS) ukierunkowane na zapewnienie dostępu do przechowywanych na ich systemie plików danych za pomocą sieciowego systemu plików (NFS, SMB/CIFS, lub Apple Filing Protocol). Należy zwrócić uwagę, że kategoryczne rozdzielenie rodzaju "SAN — to tylko dyski sieciowe NAS — to tylko sieciowy system plików" jest sztucznym: wraz z pojawieniem się iSCSI zaczęło się wzajemne przenikanie technologii w celu zwiększenia elastyczności i ułatwienia ich stosowania. Na przykład, w 2003 roku NetApp już udzielały iSCSI na swoich NAS, a EMC i HDS — wręcz przeciwnie, chciano NAS-bramy do swoich SAN-tablic.
 
 
-## Typy siec
+## Typy sieci
 
 Większość sieci pamięci masowej wykorzystuje protokół SCSI do komunikacji między serwerami i urządzeniami pamięci masowej na poziomie topologii magistrali . Ponieważ protokół SCSI nie jest przeznaczony do tworzenia pakietów sieciowych, protokoły niskiego poziomu są używane w sieciach pamięci masowej:
 
